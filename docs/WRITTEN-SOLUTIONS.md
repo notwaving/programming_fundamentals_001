@@ -24,7 +24,7 @@ The package.jason file holds various metadata relevant to the project. It is mos
 
 6. What does "forking" mean in the context of Github?
 
-'Forking' is copying a repository. Doing so allows developers to experiment with changes without affecting the original project.
+"Forking" is copying a repository. Doing so allows developers to experiment with changes without affecting the original project.
 
 7. What data types do you know?
 
@@ -40,7 +40,7 @@ Boolean.
 
 10. How would you create a variable whose value could not be changed?
 
-`const = `
+`const  `
 
 11. What would be the outcome of running this code?
 
@@ -71,7 +71,8 @@ const result = getFullname("Sally", "Jennings");
 console.log(fullName);
 ```
 `ReferenceError: getFullname is not defined`
-(`getFullname` is defined locally within the function and therefore not visible to the console.log() outside of it.)
+
+Is this a scoping or hoisting issue?
 
 13. If you wanted to see what dependencies were required in this project, where would you to to look for a list?
 
@@ -79,11 +80,12 @@ The package.json file.
 
 14. When you install dependencies, what directory is created?
 
-node_modules
+`node_modules`
 
 package-lock.json is automatically generated when npm modifies either the node_modules tree, or package.json.
 
 15. How can you write comments in your code?
 
 `//` for single line comments
+
 `/* comment */` for multiple lines
