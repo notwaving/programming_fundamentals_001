@@ -5,9 +5,11 @@
 
 addVAT = (price) => price * 1.2;
 
-function getFullName (firstName, surname) {
-    return firstName + ' ' + surname ;
-}
+// function getFullName (firstName, surname) {
+//     return firstName + ' ' + surname ;
+// }
+
+getFullName = (firstName, lastName) => firstName + ' ' + lastName;
 
 function makeHalfPrice (price) {
     return price / 2
@@ -17,6 +19,7 @@ function countBooks(arr) {
     return arr.length;
 }
 
+// change this to a ternary operator
 function isInStock (book) {
     if (book.quantity > 0) {
         return true;
