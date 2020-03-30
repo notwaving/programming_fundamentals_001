@@ -3,7 +3,7 @@
 //     return price * 1.2;
 // }
 
-addVAT = (price) => price * 1.2;
+addVAT = price => price * 1.2;
 
 // function getFullName (firstName, surname) {
 //     return firstName + ' ' + surname ;
@@ -15,13 +15,13 @@ getFullName = (firstName, lastName) => firstName + ' ' + lastName;
 //     return price / 2
 // }
 
-makeHalfPrice = (price) => price / 2;
+makeHalfPrice = price => price / 2;
 
 // function countBooks(arr) {
 //     return arr.length;
 // }
 
-countBooks = (arr) => arr.length;
+countBooks = arr => arr.length;
 
 // function isInStock (book) {
 //     if (book.quantity > 0) {
@@ -31,7 +31,7 @@ countBooks = (arr) => arr.length;
 //     }        
 // }
 
-isInStock = (book) => book.quantity ? true : false; 
+isInStock = book => book.quantity ? true : false; 
 
 // function getTotalOrderPrice(price, quantity) {
 //     return (price * quantity) * 1.2;
