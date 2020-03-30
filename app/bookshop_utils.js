@@ -1,7 +1,9 @@
-function addVAT(price) {
-    //return price + (0.2 * price);
-    return price * 1.2;
-}
+// function addVAT(price) {
+//     //return price + (0.2 * price);
+//     return price * 1.2;
+// }
+
+addVAT = (price) => price * 1.2;
 
 function getFullName (firstName, surname) {
     return firstName + ' ' + surname ;
