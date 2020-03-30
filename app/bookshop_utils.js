@@ -17,18 +17,21 @@ getFullName = (firstName, lastName) => firstName + ' ' + lastName;
 
 makeHalfPrice = (price) => price / 2;
 
-function countBooks(arr) {
-    return arr.length;
-}
+// function countBooks(arr) {
+//     return arr.length;
+// }
 
-// change this to a ternary operator
-function isInStock (book) {
-    if (book.quantity > 0) {
-        return true;
-    } else {
-       return false;
-    }        
-}
+countBooks = (arr) => arr.length;
+
+// function isInStock (book) {
+//     if (book.quantity > 0) {
+//         return true;
+//     } else {
+//        return false;
+//     }        
+// }
+
+isInStock = (book) => book.quantity ? true : false; 
 
 function getTotalOrderPrice(price, quantity) {
     return (price * quantity) * 1.2;
