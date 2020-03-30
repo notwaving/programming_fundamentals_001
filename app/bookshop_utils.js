@@ -33,9 +33,11 @@ countBooks = (arr) => arr.length;
 
 isInStock = (book) => book.quantity ? true : false; 
 
-function getTotalOrderPrice(price, quantity) {
-    return (price * quantity) * 1.2;
-}
+// function getTotalOrderPrice(price, quantity) {
+//     return (price * quantity) * 1.2;
+// }
+
+getTotalOrderPrice = (price, quantity) => (price * quantity) * 1.2;
 
 module.exports = {
     addVAT,
@@ -46,5 +48,5 @@ module.exports = {
     getTotalOrderPrice
 };
 
-/* Lots of formatting issues with this code, cut and pasted from Windows to Mac. 
+/* Lots of formatting issues with this code when cutting and pasting from Windows to Mac. 
 Must remember to format as code snippet in future! */
