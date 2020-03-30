@@ -11,9 +11,11 @@ addVAT = (price) => price * 1.2;
 
 getFullName = (firstName, lastName) => firstName + ' ' + lastName;
 
-function makeHalfPrice (price) {
-    return price / 2
-}
+// function makeHalfPrice (price) {
+//     return price / 2
+// }
+
+makeHalfPrice = (price) => price / 2;
 
 function countBooks(arr) {
     return arr.length;
